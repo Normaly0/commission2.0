@@ -1,0 +1,30 @@
+//Utilities
+@use '../utilities'as u;
+//Animations
+@use '../animations.scss';
+
+.avatar-section {
+    @include u.elementStyling;
+
+    width: 1600px;
+    margin: 0 auto 45px auto;
+    padding-bottom: 25px;
+
+    &-container {
+        display: flex;
+        row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    & img {
+        width: 100%;
+    }
+}
+
+.img-container {
+    width: 30%;
+    background: rgba(228, 133, 244, 0.6);
+    box-shadow: 4px 3px 5px black;
+    text-align: center;
+}

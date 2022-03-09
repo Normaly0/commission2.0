@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+@font-face {
+  font-family: 'Huberfish';
+  src: url('../Huberfish_c_v001-Regular.ttf') format('truetype');
+}
+
+@mixin background {
+  background-image: url('../Background\ 2.0.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@mixin elementStyling {
+    background-color: rgba(146, 142, 245, 0.4);;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+    box-shadow: 4px 3px 5px black;
+}
+
+$mainFont: 'Lato', sans-serif;
+$secondaryFont: 'Bree Serif', serif;
+$Huberfish: 'Huberfish', 'Monoton', serif;

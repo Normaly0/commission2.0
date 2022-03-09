@@ -1,0 +1,41 @@
+//Utilities
+@use '../utilities'as u;
+//Animations
+@use '../animations.scss';
+
+.pricing-section {
+    @include u.elementStyling;
+
+    width: 1000px;
+    margin: 0 auto 45px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.retexture-section {
+    width: 100%;
+    display: inherit;
+}
+
+.modeling-section {
+    width: 100%;
+    display: inherit;
+}
+
+.details {
+    width: 33.33%;
+}
+
+h3 {
+    width: 100%;
+}
+
+.border-left {
+    border-left: solid 1px rgba(228, 133, 244, 0.6);
+}
+
+.border-right {
+    border-right: solid 1px rgba(228, 133, 244, 0.6);
+}

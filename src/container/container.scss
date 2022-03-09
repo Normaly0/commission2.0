@@ -1,0 +1,66 @@
+//Utilities
+@use '../utilities'as u;
+//Animations
+@use '../animations.scss';
+
+header {
+    background: linear-gradient(90deg, #ca8ef5, #918EF5);
+    box-shadow: 4px 3px 5px black;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    height: 50px;
+    width: 100vw;
+
+    & nav {
+        margin-left: auto;
+        padding: 5px;
+    }
+    & a {
+        text-decoration: none;
+        font-size: 1.8rem;
+        margin: 0 20px;
+        color: white;
+        font-family: u.$secondaryFont;
+    }
+}
+
+.logo {
+    font-size: 1.9em;
+    line-height: 40px;
+    margin: 5px 40px;
+    font-family: u.$Huberfish;
+}
+
+.title-box {
+    text-align: center;
+    font-family: u.$secondaryFont;
+    font-size: 1.7rem;
+    margin-top: 85px;
+}
+
+.sub-title {
+    text-align: center;
+    font-family: u.$secondaryFont;
+    font-size: 1.7em;
+    width: 100%;
+}
+
+.status {
+    color: rgb(223, 21, 21);
+    // font-style: italic;
+    text-shadow: 3px 2px 5px black;
+}
+
+footer {
+    background: linear-gradient(90deg, #ca8ef5, #918EF5);
+    width: 100wv;
+    text-align: center;
+    bottom: 0;
+    
+    & p {
+        margin-bottom: 0;
+        line-height: 40px;
+    }
+}

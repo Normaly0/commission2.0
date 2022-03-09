@@ -1,0 +1,44 @@
+//Utilities
+@use '../utilities'as u;
+//Animations
+@use '../animations.scss';
+
+.about-section {
+    @include u.elementStyling;
+
+    width: 1000px;
+    height: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+
+    &-text {
+        width: 60%;
+    }
+
+    &-img {
+        display: inherit;
+        flex: 1;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    & img {
+        box-sizing: border-box;
+        width: 70%;
+    
+    }
+
+    & a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2em;
+    }
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    line-height: 35px;
+}
