@@ -45,7 +45,7 @@ function About() {
                         </div>        
                 </div>
                 <div className="about-section-img">
-                    <img src="Norm Profile Pic.png" alt="Normaly's Profile Picture" />
+                    <img src="Norm Profile Pic.jpg" alt="Normaly's Profile Picture" />
                 </div>
             </section>
     )

@@ -1,5 +1,4 @@
 import React from 'react';
-import {useSelector, useDispatch} from 'react-redux';
 
 import './container.scss'
 import About from '../components/about';
@@ -7,9 +6,6 @@ import AvatarExamples from '../components/avatar_examples';
 import Pricing from '../components/pricing';
 
 function Container() {
-
-    const window = useSelector((state) => state.window);
-    const dispatch = useDispatch();
 
     return (
         <>
@@ -26,7 +22,7 @@ function Container() {
             <main>
                 <div className = 'title-box'>
                     <h1>Normaly</h1>
-                    <p>Aspiring Web Developer | 3D Artist | Dancer</p>
+                    <p>Web Developer | 3D Artist | Dancer</p>
                 </div>
                     <About />
                 <div id = 'work-section'>
@@ -36,7 +32,7 @@ function Container() {
                     <Pricing />
             </main>
             <footer>
-                <p>©Normaly 2022</p>
+                <p>&copy;Normaly 2022</p>
             </footer>
         </>
     )

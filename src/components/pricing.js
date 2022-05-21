@@ -9,30 +9,30 @@ function Pricing() {
             <div className = 'retexture-section'>
                 <div className = 'details border-right'>
                     <p>Simple Recoloring</p>
-                    <p>Starting at 25€</p>
+                    <p>Starting at 25&euro;</p>
                 </div>
                 <div className = 'details border-right border-left'>
                     <p>Retexturing (Additional Markings/Patterns)</p>
-                    <p>Starting at 45€</p>
+                    <p>Starting at 45&euro;</p>
                 </div>
                 <div className = 'details border-left'>
                     <p>Complex Designs</p>
-                    <p>Starting at 80€</p>
+                    <p>Starting at 80&euro;</p>
                 </div>
             </div>
             <h3>3D Modeling</h3>
             <div className = 'modeling-section'>
                 <div className = 'details border-right'>
                     <p>Simple Accessories (Necklace, Bracelet etc.)</p>
-                    <p>Starting at 10€</p>
+                    <p>Starting at 10&euro;</p>
                 </div>
                 <div className = 'details border-right border-left'>
                     <p>Clothing</p>
-                    <p>Starting at 40€</p>
+                    <p>Starting at 40&euro;</p>
                 </div>
                 <div className = 'details border-left'>
                     <p>Complex Equipment</p>
-                    <p>Starting at 60€</p>
+                    <p>Starting at 60&euro;</p>
                 </div>
             </div>
             <p>
